@@ -48,7 +48,7 @@ editor["junegunn/vim-easy-align"] = {
 	cmd = "EasyAlign",
 }
 editor["phaazon/hop.nvim"] = {
-	lazy = true,
+	lazy = false,
 	branch = "v2",
 	event = "BufReadPost",
 	config = require("editor.hop"),
